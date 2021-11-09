@@ -18,3 +18,18 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+#search-box{
+outline: none;
+ 
+}
+
+#search-box:hover,
+#search-box:focus {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #5976fa , #51d5f7,#eb81d4);
+  border-image-slice: 1;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
