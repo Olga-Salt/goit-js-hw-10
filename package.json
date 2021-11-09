@@ -1,0 +1,36 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexnpm.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olga-Salt/goit-js-hw-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olga-Salt/goit-js-hw-10/issues"
+  },
+  "homepage": "https://github.com/Olga-Salt/goit-js-hw-10#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.43.3"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.1",
+    "flatpickr": "^4.6.9",
+    "lodash.throttle": "^4.1.1",
+    "notiflix": "^3.1.0",
+    "simplelightbox": "^2.9.0",
+    "src": "^1.1.2"
+  }
+}
