@@ -26,11 +26,8 @@
     "sass": "^1.43.3"
   },
   "dependencies": {
-    "@vimeo/player": "^2.16.1",
-    "flatpickr": "^4.6.9",
-    "lodash.throttle": "^4.1.1",
+    "lodash.debounce": "^4.0.8",
     "notiflix": "^3.1.0",
-    "simplelightbox": "^2.9.0",
     "src": "^1.1.2"
   }
 }
