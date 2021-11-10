@@ -22,6 +22,9 @@ function renderCoutryList(country) {
     Notify.info('Too many matches found. Please enter a more specific name.');
     return;
   }
+  //   if (inputRef.value === '') {
+  //     coutryListRef.innerHTML = '';
+  //   }
 
   if (country.length === 1) {
     return oneCountryMurkup(country);
@@ -64,4 +67,7 @@ function manyCountries(country) {
 function onFetchError(error) {
   console.log(error);
   Notify.failure('Oops, there is no country with that name');
+  if (inputRef.value === '') {
+    coutryListRef.innerHTML = '';
+  }
 }
