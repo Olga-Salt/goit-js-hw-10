@@ -22,10 +22,6 @@ function renderCoutryList(country) {
     Notify.info('Too many matches found. Please enter a more specific name.');
     return;
   }
-  //   if (inputRef.value === '') {
-  //     coutryListRef.innerHTML = '';
-  //   }
-
   if (country.length === 1) {
     return oneCountryMurkup(country);
   } else {
@@ -37,6 +33,9 @@ function renderCoutryList(country) {
 }
 
 function oneCountryMurkup(country) {
+  const countryMurkup = oneCountryTpl(country);
+  coutryListRef.innerHTML = countryMurkup;
+
   //   const lang = Object.values(country[0].languages);
   //   console.log(lang);
 
@@ -50,8 +49,6 @@ function oneCountryMurkup(country) {
   //         </li>`,
   //     )
   //     .join('');
-  const countryMurkup = oneCountryTpl(country);
-  coutryListRef.innerHTML = countryMurkup;
 }
 
 function manyCountries(country) {

@@ -1,8 +1,8 @@
 {{#each this}}
 <li>
-    <img src="{{flags.svg}}" width=30px alt="{{name.official}}"><span> {{name.official}}</span></li>
+    <h1><img src="{{flags.svg}}" width=30px alt="{{name.official}}"><span> {{name.official}}</span></h1></li>
  <li><b>Capital: </b> {{capital}}</li>
  <li><b>Population: </b> {{population}}</li>
-<li class="list-group-item"><b>languages: </b> {{#each languages}}{{#if @last}} {{this}} {{else}} {{this}},{{/if}} {{/each}}</li>
+<li><b>languages: </b> {{#each languages}}{{#if @last}} {{this}} {{else}} {{this}},{{/if}} {{/each}}</li>
 {{/each }}
 

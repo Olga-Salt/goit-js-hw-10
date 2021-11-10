@@ -12,16 +12,18 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
 }
-
-/* #search-box{
-  
-} */
 
 #search-box:hover,
 #search-box:focus {
